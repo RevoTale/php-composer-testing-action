@@ -1,6 +1,9 @@
 # .github/workflows/reusable.yml
 name: PHP Composer package testing action
 description: GitHub CI Action to simplify the process of testing composer packages for PHP.
+branding:
+  icon: 'aperture'
+  color: 'green'
 inputs:
   php-version:
     required: true
