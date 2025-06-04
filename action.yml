@@ -1,14 +1,13 @@
 # .github/workflows/reusable.yml
 name: PHP Composer package testing action
-on:
-  workflow_call:
-    inputs:
-      php-version:
-        required: true
-        type: string
-      prefer-lowest:
-        required: true
-        type: string
+description: GitHub CI Action to simplify the process of testing composer packages for PHP.
+inputs:
+  php-version:
+    required: true
+    type: string
+  prefer-lowest:
+    required: true
+    type: string
 
 runs:
   using: "composite"
