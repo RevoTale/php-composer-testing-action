@@ -1,5 +1,5 @@
 # .github/workflows/reusable.yml
-name: Reusable CI
+name: PHP Composer package testing action
 on:
   workflow_call:
     inputs:
